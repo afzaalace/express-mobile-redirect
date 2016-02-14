@@ -10,8 +10,17 @@ var ua  = require('express-mobile-redirect');
 
 /* Desktop */
 var app = express();
-app.use(ua.mobileredirect('http://localhost:3001')); // Detects mobiles and sets req.is_mobile and redirects
-app.use(ua.tabletredirect('http://localhost:3001')); // Detects tablets and sets req.is_tablet and redirects
+
+app.use(ua.mobileredirect('http://localhost:3001'));
+// Detects mobiles and sets req.is_mobile and redirects mobile users
+// This will redirect all pages to the root of http://localhost:3001
+// http://localhost:3000/page.html -> http://localhost:3001/
+
+app.use(ua.tabletredirect('http://localhost:3001', true));
+// Detects tablets and sets req.is_tablet and redirects tablet user.
+// The second parameters adds req.originalUrl to the redirected url
+// http://localhost:3000/page.html -> http://localhost:3001/page.html
+
 app.get('/', function(req, res) {
     return res.json({
         desktopsite: true,
@@ -46,7 +55,7 @@ Regex based from http://detectmobilebrowsers.com and other bits and pieces from 
 ## LICENSE
 (The MIT License)
 
-Copyright (c) 2015 afzaalace
+Copyright (c) 2016 afzaalace
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
