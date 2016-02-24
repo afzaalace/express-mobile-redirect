@@ -1,4 +1,4 @@
-# Mobile/Tablet Redirection for Node.js and Express
+# Mobile/Tablet Redirection for Node.js and Express [![Build Status](https://travis-ci.org/afzaalace/express-mobile-redirect.svg?branch=master)](https://travis-ci.org/afzaalace/express-mobile-redirect)
 
 Express middleware to detect if the request came from a mobile/tablet browser and optionally redirect accordingly.
 
