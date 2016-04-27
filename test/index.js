@@ -2,6 +2,7 @@
 var express = require('express');
 var path = require('path');
 var ua = require(path.join(__dirname, '../index.js'));
+var should = require('should');
 var request = require('request');
 describe('Client', function () {
 

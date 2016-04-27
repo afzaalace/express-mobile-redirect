@@ -1,4 +1,9 @@
-# Mobile/Tablet Redirection for Node.js and Express [![Build Status](https://travis-ci.org/afzaalace/express-mobile-redirect.svg?branch=master)](https://travis-ci.org/afzaalace/express-mobile-redirect)
+# Mobile/Tablet Redirection for Node.js and Express
+[![Build Status](https://img.shields.io/travis/afzaalace/express-mobile-redirect.svg?style=flat-square)](https://travis-ci.org/afzaalace/express-mobile-redirect)
+[![Coverage](https://img.shields.io/codecov/c/github/afzaalace/express-mobile-redirect.svg?style=flat-square)](https://codecov.io/github/afzaalace/express-mobile-redirect?branch=master)
+[![Coverage](https://img.shields.io/coveralls/afzaalace/express-mobile-redirect.svg?style=flat-square)](https://coveralls.io/github/afzaalace/express-mobile-redirect?branch=master)
+[![Dev Dependencies Status](https://img.shields.io/bithound/devDependencies/github/afzaalace/express-mobile-redirect.svg?style=flat-square)](https://www.bithound.io/github/afzaalace/express-mobile-redirect/master/dependencies/npm)
+[![Known Vulnerabilities](https://snyk.io/test/npm/express-mobile-redirect/badge.svg?style=flat-square)](https://snyk.io/test/npm/express-mobile-redirect)
 
 Express middleware to detect if the request came from a mobile/tablet browser and optionally redirect accordingly.
 
