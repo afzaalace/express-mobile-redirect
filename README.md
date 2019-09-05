@@ -1,8 +1,7 @@
 # Mobile/Tablet Redirection for Node.js and Express
-[![Build Status](https://img.shields.io/travis/afzaalace/express-mobile-redirect.svg?style=flat-square)](https://travis-ci.org/afzaalace/express-mobile-redirect)
-[![Coverage](https://img.shields.io/codecov/c/github/afzaalace/express-mobile-redirect.svg?style=flat-square)](https://codecov.io/github/afzaalace/express-mobile-redirect?branch=master)
-[![Coverage](https://img.shields.io/coveralls/afzaalace/express-mobile-redirect.svg?style=flat-square)](https://coveralls.io/github/afzaalace/express-mobile-redirect?branch=master)
-[![Dev Dependencies Status](https://img.shields.io/bithound/devDependencies/github/afzaalace/express-mobile-redirect.svg?style=flat-square)](https://www.bithound.io/github/afzaalace/express-mobile-redirect/master/dependencies/npm)
+[![Build Status](https://img.shields.io/travis/brahma-dev/express-mobile-redirect.svg?style=flat-square)](https://travis-ci.org/afzaalace/express-mobile-redirect)
+[![Coverage](https://img.shields.io/codecov/c/github/brahma-dev/express-mobile-redirect.svg?style=flat-square)](https://codecov.io/github/afzaalace/express-mobile-redirect?branch=master)
+[![Coverage](https://img.shields.io/coveralls/brahma-dev/express-mobile-redirect.svg?style=flat-square)](https://coveralls.io/github/afzaalace/express-mobile-redirect?branch=master)
 [![Known Vulnerabilities](https://snyk.io/test/npm/express-mobile-redirect/badge.svg?style=flat-square)](https://snyk.io/test/npm/express-mobile-redirect)
 
 Express middleware to detect if the request came from a mobile/tablet browser and optionally redirect accordingly.
@@ -60,7 +59,7 @@ Regex based from http://detectmobilebrowsers.com and other bits and pieces from 
 ## LICENSE
 (The MIT License)
 
-Copyright (c) 2016 afzaalace
+Copyright (c) 2019 brahma-dev
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
