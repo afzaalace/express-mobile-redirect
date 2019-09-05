@@ -1,9 +1,12 @@
 language: node_js
 node_js:
-  - "4.1"
-  - "4.0"
-  - "0.12"
-  - "iojs"
+  - "6"
+  - "7"
+  - "8"
+  - "9"
+  - "10"
+  - "11"
+  - "12"
 after_success:
   - bash <(curl -s https://codecov.io/bash)
   - bash <(cat ./coverage/lcov.info | ./node_modules/.bin/coveralls)
